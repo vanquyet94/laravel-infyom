@@ -143,7 +143,7 @@ return [
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
         Illuminate\Session\SessionServiceProvider::class,
-        //Illuminate\Translation\TranslationServiceProvider::class,
+        Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
@@ -165,9 +165,7 @@ return [
 		Prettus\Repository\Providers\RepositoryServiceProvider::class,
 		\InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
 		\InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class, 
-		
-		Barryvdh\TranslationManager\ManagerServiceProvider::Class,
-		Barryvdh\TranslationManager\TranslationServiceProvider::Class,
+		Caffeinated\Modules\ModulesServiceProvider::class,
     ],
 
     /*
@@ -220,6 +218,7 @@ return [
 		'Form'      => Collective\Html\FormFacade::class,
 		'Html'      => Collective\Html\HtmlFacade::class,
 		'Flash'     => Laracasts\Flash\Flash::class,
+		'Module' => Caffeinated\Modules\Facades\Module::class,
     ],
 
 ];

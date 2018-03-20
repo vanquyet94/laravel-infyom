@@ -6,10 +6,11 @@
     "type": "project",
     "require": {
         "php": ">=7.1.3",
-        "fideloper/proxy": "~3.3",
-        "infyomlabs/adminlte-templates": "5.5.x-dev",
-        "infyomlabs/laravel-generator": "5.5.x-dev",
-        "laravel/framework": "5.5.*",
+        "caffeinated/modules": "^4.3",
+        "fideloper/proxy": "~4.0",
+        "infyomlabs/adminlte-templates": "*",
+        "infyomlabs/laravel-generator": "*",
+        "laravel/framework": "5.6.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.5.0"
     },
